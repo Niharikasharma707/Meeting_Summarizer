@@ -26,6 +26,8 @@ except Exception as e:
     diarization_pipeline = None
 
 # Initialize the summarizer pipeline
+
+# Initialize the summarizer pipeline
 try:
     summarizer = transformers_pipeline("summarization")
     print("Summarizer initialized successfully.")
